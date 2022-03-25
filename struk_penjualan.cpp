@@ -33,7 +33,27 @@ int main(){
 	
 	
 	//menampilkan struk pembelian jika tidak ada pesanan tambahan
-
+	else{
+		
+		if(harga>=45000){
+			total=harga-(harga*10/100);	
+		}
+		cout<<"pesanan yang anda pesan"<<endl;
+		cout<<"========================"<<endl;
+		if(ayam_goreng==1){
+			cout<<"ayam goreng \t"<<pesanan_goreng<<"\t\tRp"<<pesanan_goreng*17000<<endl;
+		}
+		
+		if(ayam_bakar==1){
+			cout<<"ayam bakar \t"<<pesanan_bakar<<"\t\tRp"<<pesanan_bakar*21000<<endl;
+		}
+		cout<<"total harga = Rp"<<harga<<endl;
+		if(harga>=45000){
+			cout<<"diskon 10% sebanyak = Rp"<< harga*10/100<<endl;
+		} 
+		cout<<"total yang harus anda bayarkan = Rp"<<total;
+		
+	}
 	
 	return 0;
 	
