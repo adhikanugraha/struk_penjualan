@@ -3,10 +3,16 @@ using namespace std;
 
 int main(){
 	//deklarasi variable
-
+	int ayam_goreng,ayam_bakar;
+	int menu,pesanan_goreng,pesanan_bakar,total;
+	string pesanan_lain;
+	int harga=0;
 	
 	//tampilan menu
-
+	cout<<"\t====selamat datang====="<<endl;
+	cout<<"menu yang tersedia :"<<endl;
+	cout<<"1. ayam goreng  Rp.17000"<<endl;
+	cout<<"2. ayam bakar  Rp. 21000"<<endl;
 	
 	//input pesanan
 	cout<<"masukkan menu yang akan anda pesan :"; cin>>menu;
