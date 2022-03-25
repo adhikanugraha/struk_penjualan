@@ -44,8 +44,12 @@ int main(){
 		if(harga>=45000){
 			total=harga-(harga*10/100);	
 		}
-		cout<<"pesanan yang anda pesan"<<endl;
-		cout<<"========================"<<endl;
+		else{
+			total=harga;
+		}
+		cout<<"\n\n\n";
+		cout<<"total pesanan anda :"<<endl;
+		cout<<"============================="<<endl;
 		if(ayam_goreng==1){
 			cout<<"ayam goreng \t"<<pesanan_goreng<<"\t\tRp"<<pesanan_goreng*17000<<endl;
 		}
